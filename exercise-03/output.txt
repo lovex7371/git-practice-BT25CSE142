@@ -1,0 +1,12 @@
+FIRST VERSION
+
+Command:
+bash greet.sh
+
+Input:
+Love
+
+Output:
+Enter your name:
+Love
+Hello, Love! Welcome.
