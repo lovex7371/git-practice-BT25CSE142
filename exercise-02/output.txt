@@ -1,0 +1,17 @@
+Command: git status
+
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+
+Untracked files:
+    exercise-01/
+    exercise-02/
+    exercise-03/
+    exercise-04/
+    exercise-05/
+    exercise-06/
+    git-commands.md
+
+Command: git log --oneline
+
+a16fd72 Exercise 02: Create repository
