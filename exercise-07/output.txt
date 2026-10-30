@@ -1,0 +1,36 @@
+EXERCISE 07 – RESOLVE A MERGE CONFLICT
+
+Commands executed:
+
+1. Create feature-a branch:
+   git switch -c feature-a
+
+2. Create feature-b branch:
+   git switch main
+   git switch -c feature-b
+
+3. Switch to feature-a:
+   git switch feature-a
+
+4. Merge feature-b:
+   git merge feature-b
+
+Output:
+   Auto-merging exercise-07/message.txt
+   CONFLICT (content): Merge conflict in exercise-07/message.txt
+   Automatic merge failed; fix conflicts and then commit the result.
+
+5. Resolve the conflict manually by editing message.txt.
+
+Final file content:
+   Hello from feature A and feature B
+
+6. Stage the resolved file:
+   git add exercise-07/message.txt
+
+7. Commit the resolution:
+   git commit -m "Exercise 07: Resolve merge conflict"
+
+Result:
+   Merge conflict resolved successfully.
+   Changes committed successfully.
