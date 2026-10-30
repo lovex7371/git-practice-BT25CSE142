@@ -1,0 +1,23 @@
+Command: git add exercise-04/file1.txt
+Command: git status
+
+Changes to be committed:
+    new file: exercise-04/file1.txt
+
+Untracked:
+    exercise-04/file2.txt
+
+Command: git commit -m "Exercise 04: Add first file"
+[main 9bc2401] Exercise 04: Add first file
+
+Command: git add exercise-04/file2.txt
+Command: git commit -m "Exercise 04: Add second file"
+[main 9ce941c] Exercise 04: Add second file
+
+Command: git log --oneline -5
+
+9ce941c Exercise 04: Add second file
+9bc2401 Exercise 04: Add first file
+a72fa9f Exercise 03: Handle empty input
+edfe2fd Exercise 03: Add greeting script
+a16fd72 Exercise 02: Create repository
