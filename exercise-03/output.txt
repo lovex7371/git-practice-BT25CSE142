@@ -1,12 +1,14 @@
-FIRST VERSION
+SECOND VERSION – EMPTY INPUT HANDLING
 
-Command:
-bash greet.sh
-
-Input:
-Love
-
+Test 1:
+Input: Love
 Output:
 Enter your name:
 Love
 Hello, Love! Welcome.
+
+Test 2:
+Input: (empty)
+Output:
+Enter your name:
+Hello, Guest! Welcome.

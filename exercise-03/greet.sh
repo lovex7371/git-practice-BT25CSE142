@@ -3,4 +3,8 @@
 echo "Enter your name:"
 read name
 
-echo "Hello, $name! Welcome."
+if [ -z "$name" ]; then
+    echo "Hello, Guest! Welcome."
+else
+    echo "Hello, $name! Welcome."
+fi
