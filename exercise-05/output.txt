@@ -1,0 +1,13 @@
+Command: git diff
+
+Shows:
+This line demonstrates unstaged changes.
+
+Command: git diff --staged
+
+Shows:
+Exercise 05: Practising Git diff commands.
+
+Command: git diff HEAD
+
+Shows both staged and unstaged changes.

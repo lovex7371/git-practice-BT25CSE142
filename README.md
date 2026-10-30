@@ -65,3 +65,5 @@ git-practice-BT25CSE142/
 Love Gupta  
 BT25CSE142  
 CSE C
+Exercise 05: Practising Git diff commands.
+This line demonstrates unstaged changes.
